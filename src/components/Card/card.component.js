@@ -7,6 +7,5 @@ export const Card = props => (
         <h2> { props.monster.name } </h2>
         <p> { props.monster.email } </p>
         <p> { props.monster.phone } </p>
-        <p> { props.monster.address.city } </p>
     </div>
 )
